@@ -1,0 +1,91 @@
+body {
+    background-color: #f4f4f4;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Add background image to each square */
+#square1 {
+    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
+    background-size: cover;
+}
+
+#square2 {
+    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
+    background-size: cover;
+}
+
+#square3 {
+    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
+    background-size: cover;
+}
+
+#square4 {
+    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
+    background-size: cover;
+}
+
+#square5 {
+    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
+    background-size: cover;
+}
+
+#square6 {
+    background-image: url('logo6.png');
+    background-size: cover;
+}
+
+#square7 {
+    background-image: url('logo7.png');
+    background-size: cover;
+}
+
+#square8 {
+    background-image: url('logo8.png');
+    background-size: cover;
+}
+
+#square9 {
+    background-image: url('logo9.png');
+    background-size: cover;
+}
+
+#square10 {
+    background-image: url('logo10.png');
+    background-size: cover;
+}
+
+#square11 {
+    background-image: url('logo11.png');
+    background-size: cover;
+}
+
+#square12 {
+    background-image: url('logo12.png');
+    background-size: cover;
+}
+
+#square13 {
+    background-image: url('logo13.png');
+    background-size: cover;
+}
+
+#square14 {
+    background-image: url('logo14.png');
+    background-size: cover;
+}
