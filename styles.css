@@ -64,5 +64,6 @@ body, html {
     height: 60px; /* Set a fixed height */
     object-fit: cover; /* Ensure images fit the box size */
     cursor: pointer;
+    opacity: 1;  /* Start fully visible, change to 0 if you want them hidden initially */
     transition: opacity 2s ease; /* Smooth transition for fading */
 }
