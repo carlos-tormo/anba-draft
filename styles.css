@@ -1,28 +1,33 @@
-body {
-    background-color: #f4f4f4;
+body, html {
+    height: 100%; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    background-color: #f4f4f4; /* Background color */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 #container {
-    display: flex; /* Use flexbox to align children */
-    justify-content: center; /* Center children horizontally */
-    align-items: center; /* Center children vertically */
-    height: 100vh; /* Take up at least the full height of the viewport */
+    width: calc(100px * 4 + 10px * 3); /* width of all boxes plus gaps */
+    display: flex; /* Flexbox for further centering if needed */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center horizontally in the flex container */
+    align-items: center; /* Center vertically in the flex container */
 }
 
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
+    grid-template-columns: repeat(4, 100px); /* Four columns each 100px */
     gap: 10px; /* Space between the boxes */
-    width: fit-content; /* Only as wide as it needs to be to fit its content */
 }
 
 .box {
-    width: 100px; /* Set fixed width for each box */
-    height: 100px; /* Set fixed height for each box */
-    background-color: white; /* Background color of boxes */
-    cursor: pointer; /* Pointer cursor on hover */
+    height: 100px; /* Height for each box */
+    background-color: white; /* Background color for boxes */
+    cursor: pointer; /* Cursor on hover */
     opacity: 0; /* Start with boxes hidden */
-    transition: opacity 2s ease; /* Transition for the fade effect */
+    transition: opacity 2s ease; /* Transition effect for opacity */
+    background-size: cover; /* Cover the entire area of the box */
 }
 
 /* Add background image to each square */
