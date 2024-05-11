@@ -22,19 +22,21 @@ body, html {
 }
 
 .box {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    cursor: pointer;
-    opacity: 1;
-    transition: opacity 2s ease, background-color 2s ease, background-image 2s ease; /* Include background-image if you want the change to be smooth */
-    background-size: cover; /* Ensure this is here to keep images well formatted */
+    width: 100px; /* Fixed width for each box */
+    height: 100px; /* Fixed height for each box */
+    background-color: white; /* Background color */
+    border: 2px solid black; /* Border color */
+    color: black; /* Text color */
+    display: flex; /* Using flexbox to center the text */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-size: 20px; /* Font size of the number */
+    cursor: pointer; /* Cursor appearance */
+    opacity: 1; /* Start with full opacity */
+    transition: opacity 2s ease, background-color 2s ease; /* Transition effects */
+    background-size: contain; /* Ensures image fits within the box, might switch to 'cover' if you want it to fill the area */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
 }
 
 .box:hover {
