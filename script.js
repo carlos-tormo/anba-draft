@@ -1,9 +1,11 @@
-$(document).ready(function() {
-    // Initially hide the background
-    $('.box').css('opacity', '0');
+document.addEventListener('DOMContentLoaded', function() {
+    const boxes = document.querySelectorAll('.box');
 
-    // Fade in on click
-    $('.box').click(function() {
-        $(this).fadeTo('slow', 1);
+    boxes.forEach(box => {
+        box.addEventListener('click', function() {
+            this.style.backgroundImage = 'url(https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png)';
+            this.style.backgroundSize = 'cover';
+            this.children[0].style.display = 'none'; // Hide the number
+        });
     });
 });
