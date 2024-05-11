@@ -22,12 +22,22 @@ body, html {
 }
 
 .box {
-    height: 100px; /* Height for each box */
-    background-color: white; /* Background color for boxes */
-    cursor: pointer; /* Cursor on hover */
-    opacity: 0; /* Start with boxes hidden */
-    transition: opacity 2s ease; /* Transition effect for opacity */
-    background-size: cover; /* Cover the entire area of the box */
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    background-color: white; /* White background */
+    border: 2px solid black; /* Black border */
+    color: black; /* Text color */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: 20px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    opacity: 1; /* Fully opaque initially */
+    transition: opacity 2s ease, background-color 2s ease; /* Transition effects */
+}
+
+.box:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
 }
 
 /* Add background image to each square */
