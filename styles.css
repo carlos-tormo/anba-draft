@@ -45,7 +45,8 @@ body, html {
 
 .title {
     text-align: center;
-    font-size: 48px; /* Large font size for visibility */
+    font-size: 80px; /* Large font size for visibility */
+    font-family: Arial
     color: black; /* Color of the text */
-    margin: 20px 0; /* Some space around the title */
+    margin: 200px 0; /* Some space around the title */
 }
