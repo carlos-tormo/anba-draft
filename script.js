@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.square').click(function() {
+    $('.box').click(function() {
         $(this).fadeOut('slow');
     });
 });
