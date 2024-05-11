@@ -42,3 +42,10 @@ body, html {
 .box:hover {
     background-color: #f0f0f0; /* Light grey background on hover */
 }
+
+.title {
+    text-align: center;
+    font-size: 48px; /* Large font size for visibility */
+    color: black; /* Color of the text */
+    margin: 20px 0; /* Some space around the title */
+}
