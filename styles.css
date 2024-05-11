@@ -50,3 +50,18 @@ body, html {
     color: black; /* Color of the text */
     margin: 100px 0; /* Some space around the title */
 }
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.image-row-item {
+    width: 60px; /* Set a fixed width */
+    height: 60px; /* Set a fixed height */
+    object-fit: cover; /* Ensure images fit the box size */
+    cursor: pointer;
+    transition: opacity 2s ease; /* Smooth transition for fading */
+}
