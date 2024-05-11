@@ -8,11 +8,12 @@ body, html {
 }
 
 #container {
-    width: calc(100px * 4 + 10px * 3); /* width of all boxes plus gaps */
-    display: flex; /* Flexbox for further centering if needed */
-    flex-direction: column; /* Stack children vertically */
-    justify-content: center; /* Center horizontally in the flex container */
-    align-items: center; /* Center vertically in the flex container */
+    display: flex;
+    flex-direction: column;  /* Stack children vertically */
+    align-items: center;  /* Center-align children */
+    justify-content: start;  /* Align items to the start of the flex container */
+    width: 100%;  /* Take the full width of the container */
+    height: 100vh;  /* Optional: depending on your layout needs */
 }
 
 .container {
