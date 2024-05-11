@@ -22,91 +22,21 @@ body, html {
 }
 
 .box {
-    width: 100px; /* Fixed width */
-    height: 100px; /* Fixed height */
-    background-color: white; /* White background */
-    border: 2px solid black; /* Black border */
-    color: black; /* Text color */
-    display: flex; /* Use flexbox to center content */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    font-size: 20px; /* Text size */
-    cursor: pointer; /* Pointer cursor on hover */
-    opacity: 1; /* Fully opaque initially */
-    transition: opacity 2s ease, background-color 2s ease; /* Transition effects */
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 2s ease, background-color 2s ease, background-image 2s ease; /* Include background-image if you want the change to be smooth */
+    background-size: cover; /* Ensure this is here to keep images well formatted */
 }
 
 .box:hover {
     background-color: #f0f0f0; /* Light grey background on hover */
-}
-
-/* Add background image to each square */
-#box1 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box2 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box3 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box4 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box5 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box6 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box7 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box8 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box9 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box10 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box11 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box12 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box13 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
-}
-
-#box14 {
-    background-image: url('https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png');
-    background-size: cover;
 }
