@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     boxes.forEach(box => {
         box.addEventListener('click', function() {
-            this.style.backgroundImage = 'url(https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png)';
+            const imageUrl = this.getAttribute('data-image-url');
+            this.style.backgroundImage = `url('${imageUrl}')`;
             this.style.backgroundSize = 'cover';
             this.children[0].style.display = 'none'; // Hide the number
         });
