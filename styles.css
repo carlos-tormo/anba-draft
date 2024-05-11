@@ -3,20 +3,26 @@ body {
 }
 
 #container {
+    display: flex; /* Use flexbox to align children */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    height: 100vh; /* Take up at least the full height of the viewport */
+}
+
+.container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 50px;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
+    gap: 10px; /* Space between the boxes */
+    width: fit-content; /* Only as wide as it needs to be to fit its content */
 }
 
 .box {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    cursor: pointer;
+    width: 100px; /* Set fixed width for each box */
+    height: 100px; /* Set fixed height for each box */
+    background-color: white; /* Background color of boxes */
+    cursor: pointer; /* Pointer cursor on hover */
+    opacity: 0; /* Start with boxes hidden */
+    transition: opacity 2s ease; /* Transition for the fade effect */
 }
 
 /* Add background image to each square */
